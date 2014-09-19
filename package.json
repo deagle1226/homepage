@@ -1,0 +1,21 @@
+{
+  "name": "deagle-homepage",
+  "version": "0.0.1",
+  "description": "My Personal Homepage",
+  "author": "Dan Eagle",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^1.0.1",
+    "grunt-browserify": "^3.0.1",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.8.0",
+    "jquery": "^2.1.1",
+    "jshint": "^2.5.5",
+    "moment": "^2.8.3",
+    "swig": "^1.4.2",
+    "time-grunt": "^1.0.0"
+  }
+}

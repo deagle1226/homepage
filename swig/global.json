@@ -1,0 +1,8 @@
+{
+    "title": "A Window to Anything",
+    "weather": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "name": "San Francisco"
+    }
+}

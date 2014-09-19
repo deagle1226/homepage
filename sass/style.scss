@@ -1,0 +1,32 @@
+@import 'partials/normalize';
+@import 'partials/fonts';
+@import 'partials/variables';
+@import 'partials/mixin';
+@import 'partials/animation';
+@import 'partials/typography';
+
+body {
+    background: #eee;
+}
+
+main {
+    background: #fff;
+}
+
+[am-columns] {
+    column-count: 2;
+    column-gap: $padding;
+    column-rule: 1px solid #ccc;
+}
+
+[am-columns~="2"] {
+    column-count: 2;
+}
+
+[am-columns~="3"] {
+    column-count: 3;
+}
+
+[am-columns~="4"] {
+    column-count: 4;
+}
