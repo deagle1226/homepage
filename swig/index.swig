@@ -7,29 +7,12 @@
     <body>
         <main>
             <h3>{{ title }}</h3>
+            <time></time>
             {% include 'weather.swig' with weather only %}
-            <section am-columns="3">
-                <ul>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                </ul>
-                <ul>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                </ul>
-                <ul>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                    <li>thing</li>
-                </ul>
+            <section am-columns="2">
+                {% for group in bookmarks %}
+                    {% include 'link_list.swig' with group only %}
+                {% endfor %}
             </section>
         </main>
     </body>

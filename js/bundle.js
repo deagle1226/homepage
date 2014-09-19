@@ -2,13 +2,19 @@
 var $ = require('jquery');
 var moment = require('moment');
 
+var time = $('time');
+
 $(document).on('ready', function() {
     console.log('ready');
+    time.text(updateTime());
     setInterval(function() {
-        console.log(moment().format('dddd MMMM Do YYYY'));
-        console.log(moment().format('h:mm a'));
-    }, 30000);
+    	time.text(updateTime());
+    }, 5000);
 });
+
+function updateTime() {
+	return moment().format('dddd MMMM Do YYYY h:mm a');
+}
 },{"jquery":2,"moment":3}],2:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.1.1

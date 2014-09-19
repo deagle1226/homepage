@@ -1,8 +1,44 @@
 {
-    "title": "A Window to Anything",
+    "title": "A Window to Anywhere",
     "weather": {
         "lat": 37.7749,
         "lon": -122.4194,
         "name": "San Francisco"
-    }
+    },
+    "bookmarks": [
+    	{
+    		"name": "Entertainment",
+    		"links": [
+    			{
+    				"href": "https://giantbomb.com",
+    				"name": "Giant Bomb"
+    			},
+    			{
+    				"href": "https://tested.com",
+    				"name": "Tested"
+    			}
+    		]
+    	},
+    	{
+    		"name": "Resources",
+    		"links": [
+    			{
+    				"href": "http://www.polymer-project.org/",
+    				"name": "Polymer"
+    			},
+    			{
+    				"href": "https://github.com/Polymer/observe-js",
+    				"name": "Object.observe Polyfill"
+    			},
+    			{
+    				"href": "https://github.com/atom/atom-shell/tree/master/docs",
+    				"name": "Atom-Shell"
+    			},
+    			{
+    				"href": "http://paularmstrong.github.io/swig/docs/",
+    				"name": "SwigJS Docs"
+    			}
+    		]
+    	}
+    ]
 }

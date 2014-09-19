@@ -11,12 +11,20 @@ body {
 
 main {
     background: #fff;
+    width: 80%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 $padding;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
 }
 
 [am-columns] {
     column-count: 2;
     column-gap: $padding;
-    column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ddd;
 }
 
 [am-columns~="2"] {
